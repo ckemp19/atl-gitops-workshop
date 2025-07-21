@@ -23,9 +23,9 @@ controls:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/windows/scripts/set-wallpaper.ps1
   enable_disk_encryption: true
-ipados_updates:
-  deadline: "2025-06-31"
-  minimum_version: "18.2"
+  ipados_updates:
+    deadline: "2025-06-31"
+    minimum_version: "18.2"
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
