@@ -23,6 +23,9 @@ controls:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/windows/scripts/set-wallpaper.ps1
   enable_disk_encryption: true
+  macos_updates:
+    deadline: "2025-07-01"
+    minimum_version: "14.5.0"
   ipados_updates:
     deadline: "2025-06-31"
     minimum_version: "18.2"
